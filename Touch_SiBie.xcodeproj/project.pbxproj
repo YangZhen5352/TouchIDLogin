@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004ABE641E1E264300B79878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABE631E1E264300B79878 /* main.m */; };
+		004ABE671E1E264300B79878 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABE661E1E264300B79878 /* AppDelegate.m */; };
+		004ABE6A1E1E264300B79878 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABE691E1E264300B79878 /* ViewController.m */; };
+		004ABE6D1E1E264300B79878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004ABE6B1E1E264300B79878 /* Main.storyboard */; };
+		004ABE6F1E1E264300B79878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004ABE6E1E1E264300B79878 /* Assets.xcassets */; };
+		004ABE721E1E264300B79878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004ABE701E1E264300B79878 /* LaunchScreen.storyboard */; };
+		004ABE7D1E1E264300B79878 /* Touch_SiBieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABE7C1E1E264300B79878 /* Touch_SiBieTests.m */; };
+		004ABE881E1E264300B79878 /* Touch_SiBieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABE871E1E264300B79878 /* Touch_SiBieUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		004ABE791E1E264300B79878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004ABE571E1E264200B79878 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004ABE5E1E1E264200B79878;
+			remoteInfo = Touch_SiBie;
+		};
+		004ABE841E1E264300B79878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004ABE571E1E264200B79878 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004ABE5E1E1E264200B79878;
+			remoteInfo = Touch_SiBie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004ABE5F1E1E264300B79878 /* Touch_SiBie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touch_SiBie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		004ABE631E1E264300B79878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		004ABE651E1E264300B79878 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		004ABE661E1E264300B79878 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		004ABE681E1E264300B79878 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		004ABE691E1E264300B79878 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		004ABE6C1E1E264300B79878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		004ABE6E1E1E264300B79878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		004ABE711E1E264300B79878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		004ABE731E1E264300B79878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004ABE781E1E264300B79878 /* Touch_SiBieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Touch_SiBieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004ABE7C1E1E264300B79878 /* Touch_SiBieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_SiBieTests.m; sourceTree = "<group>"; };
+		004ABE7E1E1E264300B79878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004ABE831E1E264300B79878 /* Touch_SiBieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Touch_SiBieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004ABE871E1E264300B79878 /* Touch_SiBieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_SiBieUITests.m; sourceTree = "<group>"; };
+		004ABE891E1E264300B79878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004ABE5C1E1E264200B79878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004ABE751E1E264300B79878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004ABE801E1E264300B79878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004ABE561E1E264200B79878 = {
+			isa = PBXGroup;
+			children = (
+				004ABE611E1E264300B79878 /* Touch_SiBie */,
+				004ABE7B1E1E264300B79878 /* Touch_SiBieTests */,
+				004ABE861E1E264300B79878 /* Touch_SiBieUITests */,
+				004ABE601E1E264300B79878 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		004ABE601E1E264300B79878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004ABE5F1E1E264300B79878 /* Touch_SiBie.app */,
+				004ABE781E1E264300B79878 /* Touch_SiBieTests.xctest */,
+				004ABE831E1E264300B79878 /* Touch_SiBieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		004ABE611E1E264300B79878 /* Touch_SiBie */ = {
+			isa = PBXGroup;
+			children = (
+				004ABE651E1E264300B79878 /* AppDelegate.h */,
+				004ABE661E1E264300B79878 /* AppDelegate.m */,
+				004ABE681E1E264300B79878 /* ViewController.h */,
+				004ABE691E1E264300B79878 /* ViewController.m */,
+				004ABE6B1E1E264300B79878 /* Main.storyboard */,
+				004ABE6E1E1E264300B79878 /* Assets.xcassets */,
+				004ABE701E1E264300B79878 /* LaunchScreen.storyboard */,
+				004ABE731E1E264300B79878 /* Info.plist */,
+				004ABE621E1E264300B79878 /* Supporting Files */,
+			);
+			path = Touch_SiBie;
+			sourceTree = "<group>";
+		};
+		004ABE621E1E264300B79878 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				004ABE631E1E264300B79878 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		004ABE7B1E1E264300B79878 /* Touch_SiBieTests */ = {
+			isa = PBXGroup;
+			children = (
+				004ABE7C1E1E264300B79878 /* Touch_SiBieTests.m */,
+				004ABE7E1E1E264300B79878 /* Info.plist */,
+			);
+			path = Touch_SiBieTests;
+			sourceTree = "<group>";
+		};
+		004ABE861E1E264300B79878 /* Touch_SiBieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				004ABE871E1E264300B79878 /* Touch_SiBieUITests.m */,
+				004ABE891E1E264300B79878 /* Info.plist */,
+			);
+			path = Touch_SiBieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		004ABE5E1E1E264200B79878 /* Touch_SiBie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004ABE8C1E1E264300B79878 /* Build configuration list for PBXNativeTarget "Touch_SiBie" */;
+			buildPhases = (
+				004ABE5B1E1E264200B79878 /* Sources */,
+				004ABE5C1E1E264200B79878 /* Frameworks */,
+				004ABE5D1E1E264200B79878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touch_SiBie;
+			productName = Touch_SiBie;
+			productReference = 004ABE5F1E1E264300B79878 /* Touch_SiBie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		004ABE771E1E264300B79878 /* Touch_SiBieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004ABE8F1E1E264300B79878 /* Build configuration list for PBXNativeTarget "Touch_SiBieTests" */;
+			buildPhases = (
+				004ABE741E1E264300B79878 /* Sources */,
+				004ABE751E1E264300B79878 /* Frameworks */,
+				004ABE761E1E264300B79878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004ABE7A1E1E264300B79878 /* PBXTargetDependency */,
+			);
+			name = Touch_SiBieTests;
+			productName = Touch_SiBieTests;
+			productReference = 004ABE781E1E264300B79878 /* Touch_SiBieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		004ABE821E1E264300B79878 /* Touch_SiBieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004ABE921E1E264300B79878 /* Build configuration list for PBXNativeTarget "Touch_SiBieUITests" */;
+			buildPhases = (
+				004ABE7F1E1E264300B79878 /* Sources */,
+				004ABE801E1E264300B79878 /* Frameworks */,
+				004ABE811E1E264300B79878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004ABE851E1E264300B79878 /* PBXTargetDependency */,
+			);
+			name = Touch_SiBieUITests;
+			productName = Touch_SiBieUITests;
+			productReference = 004ABE831E1E264300B79878 /* Touch_SiBieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		004ABE571E1E264200B79878 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = edz;
+				TargetAttributes = {
+					004ABE5E1E1E264200B79878 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 69GEUC87TH;
+						ProvisioningStyle = Automatic;
+					};
+					004ABE771E1E264300B79878 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 69GEUC87TH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 004ABE5E1E1E264200B79878;
+					};
+					004ABE821E1E264300B79878 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 69GEUC87TH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 004ABE5E1E1E264200B79878;
+					};
+				};
+			};
+			buildConfigurationList = 004ABE5A1E1E264200B79878 /* Build configuration list for PBXProject "Touch_SiBie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 004ABE561E1E264200B79878;
+			productRefGroup = 004ABE601E1E264300B79878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004ABE5E1E1E264200B79878 /* Touch_SiBie */,
+				004ABE771E1E264300B79878 /* Touch_SiBieTests */,
+				004ABE821E1E264300B79878 /* Touch_SiBieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		004ABE5D1E1E264200B79878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004ABE721E1E264300B79878 /* LaunchScreen.storyboard in Resources */,
+				004ABE6F1E1E264300B79878 /* Assets.xcassets in Resources */,
+				004ABE6D1E1E264300B79878 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004ABE761E1E264300B79878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004ABE811E1E264300B79878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004ABE5B1E1E264200B79878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004ABE6A1E1E264300B79878 /* ViewController.m in Sources */,
+				004ABE671E1E264300B79878 /* AppDelegate.m in Sources */,
+				004ABE641E1E264300B79878 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004ABE741E1E264300B79878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004ABE7D1E1E264300B79878 /* Touch_SiBieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004ABE7F1E1E264300B79878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004ABE881E1E264300B79878 /* Touch_SiBieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		004ABE7A1E1E264300B79878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004ABE5E1E1E264200B79878 /* Touch_SiBie */;
+			targetProxy = 004ABE791E1E264300B79878 /* PBXContainerItemProxy */;
+		};
+		004ABE851E1E264300B79878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004ABE5E1E1E264200B79878 /* Touch_SiBie */;
+			targetProxy = 004ABE841E1E264300B79878 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		004ABE6B1E1E264300B79878 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004ABE6C1E1E264300B79878 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		004ABE701E1E264300B79878 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004ABE711E1E264300B79878 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		004ABE8A1E1E264300B79878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		004ABE8B1E1E264300B79878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		004ABE8D1E1E264300B79878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69GEUC87TH;
+				INFOPLIST_FILE = Touch_SiBie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ss.Touch-SiBie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		004ABE8E1E1E264300B79878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69GEUC87TH;
+				INFOPLIST_FILE = Touch_SiBie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ss.Touch-SiBie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		004ABE901E1E264300B79878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69GEUC87TH;
+				INFOPLIST_FILE = Touch_SiBieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ss.Touch-SiBieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touch_SiBie.app/Touch_SiBie";
+			};
+			name = Debug;
+		};
+		004ABE911E1E264300B79878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69GEUC87TH;
+				INFOPLIST_FILE = Touch_SiBieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ss.Touch-SiBieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touch_SiBie.app/Touch_SiBie";
+			};
+			name = Release;
+		};
+		004ABE931E1E264300B79878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 69GEUC87TH;
+				INFOPLIST_FILE = Touch_SiBieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ss.Touch-SiBieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Touch_SiBie;
+			};
+			name = Debug;
+		};
+		004ABE941E1E264300B79878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 69GEUC87TH;
+				INFOPLIST_FILE = Touch_SiBieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ss.Touch-SiBieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Touch_SiBie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		004ABE5A1E1E264200B79878 /* Build configuration list for PBXProject "Touch_SiBie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004ABE8A1E1E264300B79878 /* Debug */,
+				004ABE8B1E1E264300B79878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004ABE8C1E1E264300B79878 /* Build configuration list for PBXNativeTarget "Touch_SiBie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004ABE8D1E1E264300B79878 /* Debug */,
+				004ABE8E1E1E264300B79878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		004ABE8F1E1E264300B79878 /* Build configuration list for PBXNativeTarget "Touch_SiBieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004ABE901E1E264300B79878 /* Debug */,
+				004ABE911E1E264300B79878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		004ABE921E1E264300B79878 /* Build configuration list for PBXNativeTarget "Touch_SiBieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004ABE931E1E264300B79878 /* Debug */,
+				004ABE941E1E264300B79878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 004ABE571E1E264200B79878 /* Project object */;
+}
