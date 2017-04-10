@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="switchBtn" destination="mjb-as-avo" id="Ege-6m-yL0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="同意使用指纹进行登陆：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zJ-5u-jlC">
+                    <rect key="frame" x="20" y="315" width="191" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="4Wj-1f-Azd"/>
+                        <constraint firstAttribute="width" constant="191" id="goh-tE-ZUC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mjb-as-avo">
+                    <rect key="frame" x="251" y="310" width="51" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="5Gn-tf-lzB"/>
+                        <constraint firstAttribute="height" constant="31" id="9U7-EE-vki"/>
+                    </constraints>
+                </switch>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anp-V7-9BZ">
+                    <rect key="frame" x="137.5" y="428" width="100" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="SyO-8h-crC"/>
+                        <constraint firstAttribute="width" constant="100" id="rcV-iL-ydW"/>
+                    </constraints>
+                    <state key="normal" title="退出登陆">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="toLogin:" destination="-1" eventType="touchUpInside" id="g18-gI-4RS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7zJ-5u-jlC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="315" id="AkE-1k-KNT"/>
+                <constraint firstItem="7zJ-5u-jlC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="IeF-Sk-6hv"/>
+                <constraint firstItem="anp-V7-9BZ" firstAttribute="top" secondItem="mjb-as-avo" secondAttribute="bottom" constant="87" id="bPM-jO-OXO"/>
+                <constraint firstItem="anp-V7-9BZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gKL-m5-N7l"/>
+                <constraint firstItem="mjb-as-avo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="310" id="rhH-dN-Esc"/>
+                <constraint firstItem="mjb-as-avo" firstAttribute="leading" secondItem="7zJ-5u-jlC" secondAttribute="trailing" constant="40" id="sZQ-Lc-opT"/>
+            </constraints>
+            <point key="canvasLocation" x="11.5" y="23.5"/>
+        </view>
+    </objects>
+</document>

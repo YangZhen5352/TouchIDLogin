@@ -15,6 +15,19 @@
 		004ABE721E1E264300B79878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004ABE701E1E264300B79878 /* LaunchScreen.storyboard */; };
 		004ABE7D1E1E264300B79878 /* Touch_SiBieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABE7C1E1E264300B79878 /* Touch_SiBieTests.m */; };
 		004ABE881E1E264300B79878 /* Touch_SiBieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABE871E1E264300B79878 /* Touch_SiBieUITests.m */; };
+		004ABE971E1E268C00B79878 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004ABE961E1E268C00B79878 /* LocalAuthentication.framework */; };
+		004ABE9B1E1E35E200B79878 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABE991E1E35E200B79878 /* LoginViewController.m */; };
+		004ABE9C1E1E35E200B79878 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004ABE9A1E1E35E200B79878 /* LoginViewController.xib */; };
+		004ABEA01E1E39EF00B79878 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABE9E1E1E39EF00B79878 /* MainViewController.m */; };
+		004ABEA11E1E39EF00B79878 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004ABE9F1E1E39EF00B79878 /* MainViewController.xib */; };
+		004ABEA41E1E43D500B79878 /* KeychainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 004ABEA31E1E43D500B79878 /* KeychainTool.m */; };
+		006AEE2E1E1F6D4100239544 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AEE221E1F6D4100239544 /* AFHTTPSessionManager.m */; };
+		006AEE2F1E1F6D4100239544 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AEE251E1F6D4100239544 /* AFNetworkReachabilityManager.m */; };
+		006AEE301E1F6D4100239544 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AEE271E1F6D4100239544 /* AFSecurityPolicy.m */; };
+		006AEE311E1F6D4100239544 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AEE291E1F6D4100239544 /* AFURLRequestSerialization.m */; };
+		006AEE321E1F6D4100239544 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AEE2B1E1F6D4100239544 /* AFURLResponseSerialization.m */; };
+		006AEE331E1F6D4100239544 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AEE2D1E1F6D4100239544 /* AFURLSessionManager.m */; };
+		006AEE371E1F75D900239544 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 006AEE361E1F75D900239544 /* MessageModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,30 @@
 		004ABE831E1E264300B79878 /* Touch_SiBieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Touch_SiBieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		004ABE871E1E264300B79878 /* Touch_SiBieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_SiBieUITests.m; sourceTree = "<group>"; };
 		004ABE891E1E264300B79878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004ABE961E1E268C00B79878 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		004ABE981E1E35E200B79878 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		004ABE991E1E35E200B79878 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		004ABE9A1E1E35E200B79878 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		004ABE9D1E1E39EF00B79878 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		004ABE9E1E1E39EF00B79878 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		004ABE9F1E1E39EF00B79878 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		004ABEA21E1E43D500B79878 /* KeychainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainTool.h; sourceTree = "<group>"; };
+		004ABEA31E1E43D500B79878 /* KeychainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainTool.m; sourceTree = "<group>"; };
+		006AEE211E1F6D4100239544 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		006AEE221E1F6D4100239544 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		006AEE231E1F6D4100239544 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		006AEE241E1F6D4100239544 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		006AEE251E1F6D4100239544 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		006AEE261E1F6D4100239544 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		006AEE271E1F6D4100239544 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		006AEE281E1F6D4100239544 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		006AEE291E1F6D4100239544 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		006AEE2A1E1F6D4100239544 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		006AEE2B1E1F6D4100239544 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		006AEE2C1E1F6D4100239544 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		006AEE2D1E1F6D4100239544 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		006AEE351E1F75D900239544 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		006AEE361E1F75D900239544 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004ABE971E1E268C00B79878 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +123,7 @@
 				004ABE7B1E1E264300B79878 /* Touch_SiBieTests */,
 				004ABE861E1E264300B79878 /* Touch_SiBieUITests */,
 				004ABE601E1E264300B79878 /* Products */,
+				004ABE951E1E268C00B79878 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +140,20 @@
 		004ABE611E1E264300B79878 /* Touch_SiBie */ = {
 			isa = PBXGroup;
 			children = (
-				004ABE651E1E264300B79878 /* AppDelegate.h */,
-				004ABE661E1E264300B79878 /* AppDelegate.m */,
+				006AEE201E1F6D3300239544 /* AFNetworking */,
+				004ABEA51E1E43DF00B79878 /* 钥匙串 */,
 				004ABE681E1E264300B79878 /* ViewController.h */,
 				004ABE691E1E264300B79878 /* ViewController.m */,
 				004ABE6B1E1E264300B79878 /* Main.storyboard */,
+				004ABE981E1E35E200B79878 /* LoginViewController.h */,
+				004ABE991E1E35E200B79878 /* LoginViewController.m */,
+				004ABE9A1E1E35E200B79878 /* LoginViewController.xib */,
+				004ABE9D1E1E39EF00B79878 /* MainViewController.h */,
+				004ABE9E1E1E39EF00B79878 /* MainViewController.m */,
+				004ABE9F1E1E39EF00B79878 /* MainViewController.xib */,
+				006AEE341E1F75A300239544 /* Model */,
 				004ABE6E1E1E264300B79878 /* Assets.xcassets */,
-				004ABE701E1E264300B79878 /* LaunchScreen.storyboard */,
-				004ABE731E1E264300B79878 /* Info.plist */,
+				004ABEA61E1E43F900B79878 /* 其他 */,
 				004ABE621E1E264300B79878 /* Supporting Files */,
 			);
 			path = Touch_SiBie;
@@ -138,6 +183,63 @@
 				004ABE891E1E264300B79878 /* Info.plist */,
 			);
 			path = Touch_SiBieUITests;
+			sourceTree = "<group>";
+		};
+		004ABE951E1E268C00B79878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004ABE961E1E268C00B79878 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		004ABEA51E1E43DF00B79878 /* 钥匙串 */ = {
+			isa = PBXGroup;
+			children = (
+				004ABEA21E1E43D500B79878 /* KeychainTool.h */,
+				004ABEA31E1E43D500B79878 /* KeychainTool.m */,
+			);
+			name = "钥匙串";
+			sourceTree = "<group>";
+		};
+		004ABEA61E1E43F900B79878 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				004ABE651E1E264300B79878 /* AppDelegate.h */,
+				004ABE661E1E264300B79878 /* AppDelegate.m */,
+				004ABE701E1E264300B79878 /* LaunchScreen.storyboard */,
+				004ABE731E1E264300B79878 /* Info.plist */,
+			);
+			name = "其他";
+			sourceTree = "<group>";
+		};
+		006AEE201E1F6D3300239544 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				006AEE211E1F6D4100239544 /* AFHTTPSessionManager.h */,
+				006AEE221E1F6D4100239544 /* AFHTTPSessionManager.m */,
+				006AEE231E1F6D4100239544 /* AFNetworking.h */,
+				006AEE241E1F6D4100239544 /* AFNetworkReachabilityManager.h */,
+				006AEE251E1F6D4100239544 /* AFNetworkReachabilityManager.m */,
+				006AEE261E1F6D4100239544 /* AFSecurityPolicy.h */,
+				006AEE271E1F6D4100239544 /* AFSecurityPolicy.m */,
+				006AEE281E1F6D4100239544 /* AFURLRequestSerialization.h */,
+				006AEE291E1F6D4100239544 /* AFURLRequestSerialization.m */,
+				006AEE2A1E1F6D4100239544 /* AFURLResponseSerialization.h */,
+				006AEE2B1E1F6D4100239544 /* AFURLResponseSerialization.m */,
+				006AEE2C1E1F6D4100239544 /* AFURLSessionManager.h */,
+				006AEE2D1E1F6D4100239544 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		006AEE341E1F75A300239544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				006AEE351E1F75D900239544 /* MessageModel.h */,
+				006AEE361E1F75D900239544 /* MessageModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +351,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004ABE9C1E1E35E200B79878 /* LoginViewController.xib in Resources */,
 				004ABE721E1E264300B79878 /* LaunchScreen.storyboard in Resources */,
+				004ABEA11E1E39EF00B79878 /* MainViewController.xib in Resources */,
 				004ABE6F1E1E264300B79878 /* Assets.xcassets in Resources */,
 				004ABE6D1E1E264300B79878 /* Main.storyboard in Resources */,
 			);
@@ -276,9 +380,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004ABE9B1E1E35E200B79878 /* LoginViewController.m in Sources */,
+				006AEE301E1F6D4100239544 /* AFSecurityPolicy.m in Sources */,
 				004ABE6A1E1E264300B79878 /* ViewController.m in Sources */,
 				004ABE671E1E264300B79878 /* AppDelegate.m in Sources */,
+				006AEE321E1F6D4100239544 /* AFURLResponseSerialization.m in Sources */,
+				004ABEA01E1E39EF00B79878 /* MainViewController.m in Sources */,
 				004ABE641E1E264300B79878 /* main.m in Sources */,
+				006AEE2E1E1F6D4100239544 /* AFHTTPSessionManager.m in Sources */,
+				006AEE371E1F75D900239544 /* MessageModel.m in Sources */,
+				006AEE311E1F6D4100239544 /* AFURLRequestSerialization.m in Sources */,
+				006AEE331E1F6D4100239544 /* AFURLSessionManager.m in Sources */,
+				006AEE2F1E1F6D4100239544 /* AFNetworkReachabilityManager.m in Sources */,
+				004ABEA41E1E43D500B79878 /* KeychainTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69GEUC87TH;
 				INFOPLIST_FILE = Touch_SiBie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ss.Touch-SiBie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +556,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69GEUC87TH;
 				INFOPLIST_FILE = Touch_SiBie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ss.Touch-SiBie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +632,7 @@
 				004ABE8E1E1E264300B79878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		004ABE8F1E1E264300B79878 /* Build configuration list for PBXNativeTarget "Touch_SiBieTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +641,7 @@
 				004ABE911E1E264300B79878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		004ABE921E1E264300B79878 /* Build configuration list for PBXNativeTarget "Touch_SiBieUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +650,7 @@
 				004ABE941E1E264300B79878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
